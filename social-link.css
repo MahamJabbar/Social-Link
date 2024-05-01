@@ -12,8 +12,13 @@ body{
     border-radius: 20px;
     background-color:hsl(0, 0%, 12%);
 }
+.mj-img{
+    max-width: 50%;
+    margin: auto;
+}
 .mj-img img{
     border-radius: 50%;
+    width: 100%;
 }
 .mj-headings,.mj-img{
     text-align: center;
@@ -55,6 +60,10 @@ body{
     }
     .mj-headings h1{
         font-size: 25px;
+    }
+    .mj-img{
+        max-width: 100%;
+        margin: auto;
     }
     .mj-img img{
         width: 50%;
